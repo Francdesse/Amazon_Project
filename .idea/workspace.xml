@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4a7796d-b84d-48aa-b2d1-74c40ca97ebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/steps/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/header_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/steps/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/main_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" afterDir="false" />
@@ -134,7 +138,7 @@
       <workItem from="1699291628596" duration="2423000" />
       <workItem from="1699456080027" duration="5288000" />
       <workItem from="1699461563972" duration="2083000" />
-      <workItem from="1699545162194" duration="5987000" />
+      <workItem from="1699545162194" duration="6709000" />
     </task>
     <servers />
   </component>

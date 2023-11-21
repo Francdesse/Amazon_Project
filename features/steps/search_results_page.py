@@ -14,7 +14,7 @@ def save_item_name(context):
 
 @then('verify the title contains {search_item}')
 def item_open_to_product_page(context, search_item):
-    context.app.search_results_page.item_open_to_product_page(search_item)
+    context.app.product_page.item_open_to_product_page(search_item)
 
 
 @then('Verify the added to cart message')

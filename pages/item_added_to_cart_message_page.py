@@ -6,4 +6,5 @@ class ADDEDTOCARTMESSAGEPAGE(Page):
     ADDED_TO_CART_MESSAGE = (By.ID, 'NATC_SMART_WAGON_CONF_MSG_SUCCESS')
 
     def verify_add_to_crt_message(self):
-        assert self.find_element(*self.ADDED_TO_CART_MESSAGE).text,f"Error! Not correct message"
+        #assert self.find_element(*self.ADDED_TO_CART_MESSAGE).text,f"Error! Not correct message"
+        self.verify_element_text('Added to Cart', *self.ADDED_TO_CART_MESSAGE)

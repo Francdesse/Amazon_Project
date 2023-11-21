@@ -6,11 +6,11 @@ from selenium.webdriver.support import expected_conditions as EC
 
 class SEARCHRESULTSPAGE(Page):
     FRST_PRODUCT = (By.CSS_SELECTOR, '.a-section .a-size-mini.a-spacing-none.a-color-base.s-line-clamp-2 ')
+    PRD_TILE = (By.CSS_SELECTOR, '#productTitle')
 
     def clicks_on_first_item(self):
-        clicking_frst_item = self.find_elements(*self.FRST_PRODUCT)
-        clicking_frst_item[0].click()
-        sleep(10)
+        clicking_frst_item = self.wait.until(EC.element_to_be_clickable(self.FRST_PRODUCT))
+        clicking_frst_item.click()
 
     def save_item_name(self):
         self.driver.prd_name = self.driver.find_element(*self.FRST_PRODUCT).text

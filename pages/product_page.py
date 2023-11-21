@@ -6,4 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class PRODUCTPAGE(Page):
-    pass
+    ADD_TO_CART_BTN = (By.ID, 'add-to-cart-button')
+
+    def user_clicks_on_add_to_cart(self):
+        self.wait_for_element_click(*self.ADD_TO_CART_BTN)
+

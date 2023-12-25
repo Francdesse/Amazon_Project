@@ -11,6 +11,13 @@ def user_clicks_search_btn(context):
     context.app.header_page.user_clicks_search_btn()
 
 
+@when('clicks on go to cart button')
+def user_clicks_on_cart(context):
+    context.app.header_page.user_clicks_on_cart()
+
+
 @then('verify that user sees {expected_result}')
 def user_sees_airpods_in_search_results(context, expected_result):
-    context.app.header_page.user_sees_airpods_in_search_results(expected_result)
+    context.app.cart_page.user_sees_airpods_in_search_results(expected_result)
+
+

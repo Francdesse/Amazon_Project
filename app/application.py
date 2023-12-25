@@ -2,6 +2,7 @@ from pages.item_added_to_cart_message_page import ADDEDTOCARTMESSAGEPAGE
 from pages.header_page import HEADERPAGE
 from pages.product_page import PRODUCTPAGE
 from pages.main_page import MAINPAGE
+from pages.cart_page import CARTPAGE
 from pages.search_results_page import SEARCHRESULTSPAGE
 
 
@@ -13,6 +14,7 @@ class Application:
         self.header_page = HEADERPAGE(self.driver)
         self.product_page = PRODUCTPAGE(self.driver)
         self.main_page = MAINPAGE(self.driver)
+        self.cart_page = CARTPAGE(self.driver)
         self.search_results_page = SEARCHRESULTSPAGE(self.driver)
         self.item_added_to_cart_message_page = ADDEDTOCARTMESSAGEPAGE(self.driver)
 

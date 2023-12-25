@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4a7796d-b84d-48aa-b2d1-74c40ca97ebb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/features/steps/cart_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/item_added_to_cart_message_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/item_added_to_cart_message_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/search_results_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/search_results_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/header_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +66,7 @@
       <recent name="$PROJECT_DIR$/features" />
     </key>
   </component>
-  <component name="RunManager" selected="Behave.amazon_product_flow.feature:verify user is able to add item to cart">
+  <component name="RunManager" selected="Behave.amazon_product_flow.feature:verify that item is in cart after user add item to cart">
     <configuration name="amazon_product_flow.feature" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
       <module name="Amazon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,6 +78,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="amazon_product_flow.feature:verify that item is in cart after user add item to cart" type="PyBehaveRunConfigurationType" factoryName="Behave" temporary="true">
+      <module name="Amazon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <WHAT_TO_RUN WHAT_TO_RUN="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" />
+      <SCENRAIO_NAMES SCENRAIO_NAMES="verify that item is in cart after user add item to cart" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
@@ -146,8 +165,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Behave.amazon_product_flow.feature:verify user is able to click an item" />
+        <item itemvalue="Behave.amazon_product_flow.feature:verify that item is in cart after user add item to cart" />
         <item itemvalue="Behave.amazon_product_flow.feature" />
+        <item itemvalue="Behave.amazon_product_flow.feature:verify user is able to click an item" />
         <item itemvalue="Behave.amazon_product_flow.feature:verify user is able to search an item" />
       </list>
     </recent_temporary>
@@ -173,6 +193,11 @@
       <workItem from="1700527546157" duration="6373000" />
       <workItem from="1700533953839" duration="48000" />
       <workItem from="1700578829703" duration="6428000" />
+      <workItem from="1700591345520" duration="1686000" />
+      <workItem from="1700769511700" duration="1073000" />
+      <workItem from="1701371351568" duration="598000" />
+      <workItem from="1702591951638" duration="75000" />
+      <workItem from="1703463518085" duration="5069000" />
     </task>
     <servers />
   </component>
@@ -192,10 +217,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Amazon$main.coverage" NAME="main Coverage Results" MODIFIED="1698103137348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature_verify_user_is_able_to_click_an_item.coverage" NAME="amazon_product_flow.feature:verify user is able to click an item Coverage Results" MODIFIED="1700581291585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature_verify_user_is_able_to_click_an_item.coverage" NAME="amazon_product_flow.feature:verify user is able to click an item Coverage Results" MODIFIED="1700591995074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature_verify_user_is_able_to_search_an_item.coverage" NAME="amazon_product_flow.feature:verify user is able to search an item Coverage Results" MODIFIED="1699552752990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature.coverage" NAME="amazon_product_flow.feature Coverage Results" MODIFIED="1700533451253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature.coverage" NAME="amazon_product_flow.feature Coverage Results" MODIFIED="1700592041825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature_verify_that_item_is_in_cart_after_user_add_item_to_cart.coverage" NAME="amazon_product_flow.feature:verify that item is in cart after user add item to cart Coverage Results" MODIFIED="1703468526890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Amazon$environment.coverage" NAME="environment Coverage Results" MODIFIED="1698103157134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
-    <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature_verify_user_is_able_to_add_item_to_cart.coverage" NAME="amazon_product_flow.feature:verify user is able to add item to cart Coverage Results" MODIFIED="1700583555055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Amazon$amazon_product_flow_feature_verify_user_is_able_to_add_item_to_cart.coverage" NAME="amazon_product_flow.feature:verify user is able to add item to cart Coverage Results" MODIFIED="1703463641857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

@@ -9,6 +9,7 @@ class HEADERPAGE(Page):
     SEARCH_BOX= (By.CSS_SELECTOR, '#twotabsearchtextbox')
     SEARCH_BTN= (By.ID, "nav-search-submit-button")
     SEARCH_RESULTS_IN_QUOTE= (By.CSS_SELECTOR, '.sg-col-inner .a-color-state.a-text-bold')
+    CART= (By.ID, 'nav-cart-count-container')
 
     def user_searches_for_airpods(self, search_item):
         self.input_text(search_item, *self.SEARCH_BOX)
@@ -18,3 +19,9 @@ class HEADERPAGE(Page):
 
     def user_sees_airpods_in_search_results(self,expected_result):
         self.verify_element_text(expected_result,*self.SEARCH_RESULTS_IN_QUOTE), 'Tile in quotes is missing'
+
+    def item_is_in_cart(self, expected_result):
+        self.verify_element_text(expected_result, *self.ITEM_IN_CART), 'Item title is not found'
+
+    def user_clicks_on_cart(self):
+        self.click(*self.CART), 'Cart is not functional'

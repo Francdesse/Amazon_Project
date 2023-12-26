@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4a7796d-b84d-48aa-b2d1-74c40ca97ebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/features/steps/cart_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/cart_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/steps/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/header_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/tests/amazon_product_flow.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header_page.py" afterDir="false" />
-    </list>
+    <list default="true" id="e4a7796d-b84d-48aa-b2d1-74c40ca97ebb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -197,7 +189,7 @@
       <workItem from="1700769511700" duration="1073000" />
       <workItem from="1701371351568" duration="598000" />
       <workItem from="1702591951638" duration="75000" />
-      <workItem from="1703463518085" duration="5069000" />
+      <workItem from="1703463518085" duration="5195000" />
     </task>
     <servers />
   </component>

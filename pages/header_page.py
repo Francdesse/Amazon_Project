@@ -11,6 +11,8 @@ class HEADERPAGE(Page):
     SEARCH_RESULTS_IN_QUOTE= (By.CSS_SELECTOR, '.sg-col-inner .a-color-state.a-text-bold')
     CART= (By.ID, 'nav-cart-count-container')
 
+    CART_COUNT=(By.CSS_SELECTOR, '#nav-cart-count-container .nav-cart-count')
+
     def user_searches_for_airpods(self, search_item):
         self.input_text(search_item, *self.SEARCH_BOX)
 
@@ -25,3 +27,8 @@ class HEADERPAGE(Page):
 
     def user_clicks_on_cart(self):
         self.click(*self.CART), 'Cart is not functional'
+
+    def num_on_cart_item(self, cart_numb):
+        sleep(2)
+        self.verify_element_text(cart_numb, *self.CART_COUNT), f'Error, numbers not the same'
+

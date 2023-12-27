@@ -21,3 +21,6 @@ def user_sees_airpods_in_search_results(context, expected_result):
     context.app.cart_page.user_sees_airpods_in_search_results(expected_result)
 
 
+@then('Verify the on the number cart updates to {1}')
+def num_on_cart_item(context, cart_numb):
+    context.app.header_page.num_on_cart_item(cart_numb)

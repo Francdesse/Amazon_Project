@@ -37,5 +37,6 @@ Feature: user is able to successful buy item from store
     And clicks on search button
     And clicks on first item
     And clicks on add to cart button
-    Then Verify the on the number cart updates
+    And user clicks no thanks on order pop up page
+    Then Verify the on the number cart updates to 1
 

@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 class PRODUCTPAGE(Page):
     ADD_TO_CART_BTN = (By.ID, 'add-to-cart-button')
     PRD_TILE = (By.CSS_SELECTOR, '#productTitle')
+    NO_THANKS = (By.ID, 'attachSiNoCoverage')
 
     def item_open_to_product_page(self, search_item):
         item_tile = self.driver.find_element(*self.PRD_TILE).text
@@ -15,4 +16,8 @@ class PRODUCTPAGE(Page):
 
     def user_clicks_on_add_to_cart(self):
         self.wait_for_element_click(*self.ADD_TO_CART_BTN)
+
+    def user_click_no_thanks(self):
+        self.wait_for_element_click(*self.NO_THANKS)
+            #self.click(*self.NO_THANKS)
 

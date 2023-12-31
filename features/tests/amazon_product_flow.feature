@@ -20,6 +20,7 @@ Feature: user is able to successful buy item from store
     And clicks on search button
     And clicks on first item
     And clicks on add to cart button
+    And user clicks no thanks on order pop up page
     Then Verify the added to cart message
 
   Scenario: verify that item is in cart after user add item to cart
@@ -28,6 +29,7 @@ Feature: user is able to successful buy item from store
     And clicks on search button
     And clicks on first item
     And clicks on add to cart button
+    And user clicks no thanks on order pop up page
     And clicks on go to cart button
     Then Verify the added AirPods is in cart
 

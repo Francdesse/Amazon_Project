@@ -18,7 +18,7 @@ def user_clicks_on_cart(context):
 
 @then('verify that user sees {expected_result}')
 def user_sees_airpods_in_search_results(context, expected_result):
-    context.app.cart_page.user_sees_airpods_in_search_results(expected_result)
+    context.app.header_page.user_sees_airpods_in_search_results(expected_result)
 
 
 @then('Verify the on the number cart updates to {1}')

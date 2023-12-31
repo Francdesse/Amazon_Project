@@ -26,6 +26,7 @@ class HEADERPAGE(Page):
         self.verify_element_text(expected_result, *self.ITEM_IN_CART), 'Item title is not found'
 
     def user_clicks_on_cart(self):
+        sleep(2)
         self.click(*self.CART), 'Cart is not functional'
 
     def num_on_cart_item(self, cart_numb):
